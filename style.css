@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background: #e0e0e0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -17,8 +18,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px; /* Ajoute de l'espace entre les éléments */
+    text-align: center; /* Centre le texte à l'intérieur */
 }
 
-h1 {
+h1, p, button {
     color: #333;
 }
